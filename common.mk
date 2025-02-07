@@ -322,6 +322,7 @@ PRODUCT_PACKAGES += \
 
 # Sensors
 PRODUCT_PACKAGES += \
+    sensors.qsh_wrapper \
     sensors.sm8650 \
     android.hardware.sensors-service.multihal
 
