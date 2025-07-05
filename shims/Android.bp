@@ -1,0 +1,8 @@
+cc_library_shared {
+    name: "libaudioclient_shim.sm8650",
+    shared_libs: ["libaudioclient", "libutils", "liblog"],
+    header_libs: ["libmedia_headers"],
+    srcs: [
+        "libaudioclient/AudioSystem.cpp",
+    ],
+}
