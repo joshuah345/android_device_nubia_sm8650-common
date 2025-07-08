@@ -19,6 +19,7 @@ from extract_utils.main import (
 )
 
 namespace_imports = [
+    'device/nubia/sm8650-common',
     'hardware/qcom-caf/sm8650',
     'hardware/qcom-caf/wlan',
     'vendor/qcom/opensource/commonsys/display',
