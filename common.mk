@@ -153,6 +153,10 @@ PRODUCT_PACKAGES += \
 
 $(call soong_config_set,lineage_health,charging_control_charging_path,/sys/class/qcom-battery/battery_charging_enabled)
 
+# LiveDisplay 
+PRODUCT_PACKAGES += \
+    vendor.lineage.livedisplay@2.1-service.nubia
+
 # Media
 PRODUCT_COPY_FILES += \
     frameworks/av/media/libstagefright/data/media_codecs_google_audio.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_google_audio.xml \
