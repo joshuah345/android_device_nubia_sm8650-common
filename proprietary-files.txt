@@ -1610,7 +1610,6 @@ vendor/lib64/hw/vendor.qti.hardware.qseecom@1.0-impl.so
 vendor/lib64/libGPreqcancel.so
 vendor/lib64/libGPreqcancel_svc.so
 vendor/lib64/libQSEEComAPI.so
-vendor/lib64/libcpion.so
 vendor/lib64/libdrmfs.so
 vendor/lib64/libdrmtime.so
 vendor/lib64/libgpt.so
@@ -1811,10 +1810,7 @@ vendor/lib64/libubwcp.so
 
 # Widevine DRM
 vendor/apex/com.google.android.widevine.nonupdatable.apex
-vendor/bin/KmInstallKeybox
 vendor/etc/vintf/manifest/android.hardware.drm-service.xml
-vendor/lib64/liboemcrypto.so
-vendor/lib64/libtrustedapploader.so
 
 # WiFi
 vendor/bin/cnss-daemon
