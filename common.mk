@@ -148,6 +148,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.ir-service.lineage
 
+# Keylayout
+PRODUCT_PACKAGES += \
+    nubia_game_sw.kl
+
 # Lineage Health
 PRODUCT_PACKAGES += \
     vendor.lineage.health-service.default
