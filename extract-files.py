@@ -71,6 +71,7 @@ blob_fixups: blob_fixups_user_type = {
         .remove_needed('android.hidl.base@1.0.so')
         .add_needed('libinput_shim.so'),
     'system_ext/lib64/libwfdservice.so': blob_fixup()
+        .replace_needed('android.hardware.common-V2-ndk_platform.so', 'android.hardware.common-V2-ndk.so')
         .replace_needed('android.media.audio.common.types-V2-cpp.so', 'android.media.audio.common.types-V4-cpp.so'),
     'vendor/etc/media_codecs_pineapple.xml': blob_fixup()
         .regex_replace('.*media_codecs_(google_audio|google_c2|google_telephony).*\n', ''),
