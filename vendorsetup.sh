@@ -38,9 +38,6 @@ run_in_path() {
 cecho GREEN "Applying patch to fix display transforms (night light/SDM livedisplay picturadjustment/extra dim)"
 run_in_path "hardware/qcom-caf/sm8650/display" "git fetch https://github.com/LineageOS/android_hardware_qcom_display refs/changes/23/430223/2 && git cherry-pick FETCH_HEAD"
 
-cecho GREEN "Applying patch to fix qcom sepolicy on android 16"
-run_in_path "device/qcom/sepolicy_vndr/sm8650" "git fetch https://github.com/Evolution-X/device_qcom_sepolicy_vndr/ refs/heads/bka-sm8450 && git cherry-pick 6839c88bc978abc0bf39d021780fba3a2b1e4f37"
-
 cecho GREEN "Applying patch to allow dtbs to depend on each other"
 run_in_path "vendor/lineage" "git fetch https://github.com/LineageOS/android_vendor_lineage refs/changes/43/436043/3 && git cherry-pick FETCH_HEAD"
 
