@@ -378,5 +378,12 @@ PRODUCT_PACKAGES += \
     firmware_wlan_mac.bin_symlink \
     firmware_WCNSS_qcom_cfg.ini_symlink
 
+# NubiaParts 
+$(call inherit-product, packages/apps/NubiaParts/config.mk)
+
+PRODUCT_PACKAGES += \
+    NubiaGameSwitch \
+    NubiaPowerUtils
+
 # Inherit from proprietary targets
 $(call inherit-product, vendor/nubia/sm8650-common/sm8650-common-vendor.mk)
