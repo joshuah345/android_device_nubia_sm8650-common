@@ -97,6 +97,9 @@ PRODUCT_COPY_FILES += \
     $(AUDIO_PAL_DIR)/configs/pineapple/Hapticsconfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/Hapticsconfig.xml \
     $(AUDIO_PAL_DIR)/configs/pineapple/card-defs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/card-defs.xml
 
+# ViPER4Android Fx
+$(call inherit-product-if-exists, packages/apps/ViPER4AndroidFX/config.mk)
+
 # Boot control
 PRODUCT_PACKAGES += \
     android.hardware.boot-service.qti \
