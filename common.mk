@@ -223,6 +223,8 @@ PRODUCT_PACKAGES += \
     NcmTetheringOverlay \
     SystemUIResCommon_Sys \
     TelephonyResCommon_Sys \
+    WallpaperPicker2Overlay \
+    WallpaperPicker2PixelOverlay \
     WifiResCommon_Sys \
     WifiResOverlay \
     WifiResTarget \
