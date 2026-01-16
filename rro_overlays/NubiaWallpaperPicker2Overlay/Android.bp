@@ -4,7 +4,7 @@
 //
 
 runtime_resource_overlay {
-    name: "WallpaperPicker2Overlay",
+    name: "NubiaWallpaperPicker2Overlay",
     product_specific: true,
     aaptflags: ["--keep-raw-values"],
 }
