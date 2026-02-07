@@ -420,6 +420,7 @@ PRODUCT_PACKAGES += \
 $(call inherit-product, packages/apps/NubiaParts/config.mk)
 
 PRODUCT_PACKAGES += \
+    NubiaGameSwitch \
     NubiaPowerUtils
 
 # Inherit from proprietary targets
